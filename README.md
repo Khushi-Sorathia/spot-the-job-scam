@@ -63,7 +63,7 @@ It serves as an accessible tool for individuals to stay safer online.
 
 The model performs with balanced accuracy and minimal false positives, making it highly effective for real-world use.
 
-### 𞷾 Interpretation
+### Interpretation
 
 - Probability scores indicate scam likelihood
 - Keywords contributing to the prediction are visually emphasized
@@ -77,7 +77,7 @@ To keep the GitHub repository lightweight, all large files are hosted externally
 - 📊 Processed Dataset (cleaned_train.csv)
 - 📄 Training Logs and Notebooks
 
-📁 Google Drive Link: https://drive.google.com/drive/folders/YOUR\_FOLDER\_ID\_HERE\
+📁 Google Drive Link: [https://drive.google.com/file/d/1XSqmUCYdMo8NP8pjKiw6_vTIRmFCAqgQ/view?usp=sharing](https://drive.google.com/file/d/1XSqmUCYdMo8NP8pjKiw6_vTIRmFCAqgQ/view?usp=sharing)
 (Access is set to “Anyone with the link can view”)
 
 ---
@@ -89,13 +89,14 @@ Follow these steps to run Spot the Scam locally:
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/khushi-sorathia/spot-the-scam.git
+git clone https://github.com/Khushi-Sorathia/spot-the-job-scam.git
 cd spot-the-scam
 ```
 
 ### 2️⃣ Setup the Frontend
 
 ```bash
+cd src
 npm install
 npm run dev
 ```
@@ -107,7 +108,7 @@ Frontend will be available at: [http://localhost:5173/](http://localhost:5173/)
 ```bash
 cd backend
 pip install -r requirements.txt
-python app.py
+python main.ipynb
 ```
 
 Backend will run at: [http://localhost:5000/](http://localhost:5000/)
@@ -137,17 +138,11 @@ spot-the-scam/
 
 ## 👨‍💼 Contributors
 
-- Diya Bhat
-- Khushi
+- [Diya K Bhat](https://github.com/diyakbhat27)
+- [Khushi S Sorathia](https://github.com/Khushi-Sorathia)
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.\
-See the LICENSE file for more information.
-
----
 
 🔗 For more information or to try the app, visit:\
 [https://spot-the-scam.netlify.app](https://spot-the-scam.netlify.app)
