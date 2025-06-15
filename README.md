@@ -73,7 +73,7 @@ The model performs with balanced accuracy and minimal false positives, making it
 
 To keep the GitHub repository lightweight, all large files are hosted externally:
 
-- 🔗 Model File (model.pkl)
+- 🔗 Model File (model_xgb.pkl)
 - 📊 Processed Dataset (cleaned_train.csv)
 - 📄 Training Logs and Notebooks
 
