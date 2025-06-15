@@ -122,13 +122,15 @@ Ensure CORS is enabled to allow communication between frontend and backend.
 ```
 spot-the-scam/
 🔹 backend/                # Flask API for real-time inference
-🔹 ├─ app.py              # Main API file
-🔹 ├─ model.pkl           # Trained model
-🔹 └─ requirements.txt    # Python dependencies
-🔹 src/                    # React source files
+🔹 ├─ main.ipynb           # Main notebook
+🔹 ├─ model_xgb.pkl        # Trained model
+🔹 └─ r.txt                # Python dependencies
+🔹 └─ train.csv
+🔹 └─ test.csv
+🔹 src/                   # React source files
 🔹 ├─ components/         # Reusable UI components
 🔹 └─ pages/              # Main pages like Home
-🔹 public/                 # Static assets
+🔹 public/                # Static assets
 🔹 index.html
 🔹 package.json            # Frontend dependencies
 🔹 tailwind.config.js      # Styling config
